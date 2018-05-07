@@ -47,10 +47,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    justify-content: space-between;       
+    justify-content: space-around;
 }
 
-.conta
+.contact {
+    font-size: 50px;
+}
+
+.about-hours-container {
+    font-size: 50px;
+}
 
 .nav-bar {
     font-size: 20px;
