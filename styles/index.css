@@ -24,18 +24,6 @@
     scroll-behavior: smooth;
 }
 
-
-.about-container {
-    background-color: red;
-    height: 100vh;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    justify-content: space-around;
-}
-
-
 .schedule {
     /* background-color: coral; */
     height: 100vh;
@@ -52,10 +40,27 @@
 }
 
 .contact {
+    width: 50%;
+    background-color: red;
+}
+
+
+.contact-title {
     font-size: 50px;
+    font-family: 'Gothic A1', sans-serif;        
 }
 
 .about-hours-container {
+    font-family: 'Gothic A1', sans-serif; 
+    width: 50%;
+    background-color: blue;       
+}
+
+.about-container {
+    word-wrap: break-word;  
+}
+
+.about {
     font-size: 50px;
 }
 
