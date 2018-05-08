@@ -44,10 +44,17 @@
     background-color: red;
 }
 
+.contact p {
+    margin-left: 25px;
+    font-size: 25px;
+}
 
 .contact-title {
     font-size: 50px;
-    font-family: 'Gothic A1', sans-serif;        
+    font-family: 'Gothic A1', sans-serif; 
+    display: flex;
+    justify-content: center;
+    margin: 20px;       
 }
 
 .about-hours-container {
