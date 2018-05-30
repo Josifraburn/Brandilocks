@@ -91,10 +91,20 @@
 
 .hours-container {
     margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hours {
     font-size: 125px;
+}
+.hours-time {
+    font-size: 50px;
+}
+
+.hours-exceptions{
+    font-size: 25px;
 }
 
 a {
