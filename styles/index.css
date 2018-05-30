@@ -41,7 +41,7 @@
 
 .contact {
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .contact p {
@@ -50,7 +50,7 @@
 }
 
 .contact-title {
-    font-size: 50px;
+    font-size: 125px;
     font-family: 'Gothic A1', sans-serif; 
     display: flex;
     justify-content: center;
@@ -60,6 +60,9 @@
 .about-hours-container {
     font-family: 'Gothic A1', sans-serif; 
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: blue;       
 }
 
@@ -68,12 +71,21 @@
 }
 
 .about {
-    font-size: 50px;
+    font-size: 125px;
 }
 
 .nav-bar {
     font-size: 20px;
     font-family: 'Gothic A1', sans-serif;        
+}
+
+
+.hours-container {
+    margin: 25px;
+}
+
+.hours {
+    font-size: 125px;
 }
 
 a {
